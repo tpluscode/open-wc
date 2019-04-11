@@ -107,7 +107,6 @@ function createConfig(options, legacy) {
 
       new HtmlWebpackPlugin({
         template: options.indexHTML,
-        inject: false,
       }),
 
       modernWebWebpackPlugin,
